@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: LoginCourierTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 213.07 s <<< FAILURE! - in LoginCourierTest
+loginCourierWithWrongPassword(LoginCourierTest)  Time elapsed: 60.773 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <504>.
+
+	at LoginCourierTest.loginCourierWithWrongPassword(LoginCourierTest.java:102)
+
+loginCourierWithWrongLoginAndPassword(LoginCourierTest)  Time elapsed: 60.654 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <504>.
+
+	at LoginCourierTest.loginCourierWithWrongLoginAndPassword(LoginCourierTest.java:132)
+
+loginCourierWithWrongLogin(LoginCourierTest)  Time elapsed: 30.554 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <504>.
+
+	at LoginCourierTest.loginCourierWithWrongLogin(LoginCourierTest.java:117)
+
+loginCourierWithoutPassword(LoginCourierTest)  Time elapsed: 60.518 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <504>.
+
+	at LoginCourierTest.loginCourierWithoutPassword(LoginCourierTest.java:86)
+
